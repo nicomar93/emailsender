@@ -16,7 +16,7 @@ namespace Aiuto
             SmtpMail oMail = new SmtpMail("TryIt");
             SmtpClient oSmtp = new SmtpClient();
 
-            // Your Hotmail email address
+            // Your email address
 
             oMail.From = args[0];            
             
@@ -24,7 +24,7 @@ namespace Aiuto
             oMail.To = "test123@gmail.com";
 
             // Set email subject
-            oMail.Subject = "hlep";
+            oMail.Subject = "help";
 
             // Set email body
             oMail.TextBody = "this is a test email sent from c# project.";
